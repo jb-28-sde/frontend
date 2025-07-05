@@ -1,21 +1,20 @@
-import React from 'react';
-import './About.css';
+import React from "react";
+import "./About.css";
 
 export default function About() {
   return (
-    
     <div className="about-container">
-      
       <div className="about-inner">
         <div className="about-left">
-          <h1 className='about-left-title'>About us</h1>
+          <h1 className="about-left-title">About us</h1>
           <h1>About UniverseMart</h1>
-          <p>Your trusted destination for everything you need is here</p>
+          <p>Your trusted destination for everything you need</p>
 
           <div className="about-content">
             <p>
-              At <strong>UniverseMart</strong>, we redefine shopping by offering a seamless and delightful experience.
-              Whether it's electronics, fashion, home essentials, or more — we’ve got it all.
+              At <strong>UniverseMart</strong>, we redefine shopping by offering
+              a seamless and delightful experience. Whether it's electronics,
+              fashion, home essentials, or more — we’ve got it all.
             </p>
 
             <h2>Why Choose Us?</h2>
@@ -29,7 +28,8 @@ export default function About() {
             </ul>
 
             <p className="closing-line">
-              Come, experience the future of shopping with <span>UniverseMart</span> — where quality meets trust.
+              Come, experience the future of shopping with{" "}
+              <span>UniverseMart</span> — where quality meets trust.
             </p>
           </div>
         </div>
@@ -45,4 +45,3 @@ export default function About() {
     </div>
   );
 }
-

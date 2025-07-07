@@ -1,6 +1,13 @@
-# React + Vite
+# E-comm fully functioned froontend project with react redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+build this project with react+redux
+tools used
+1.html
+2.css
+3.bootstrap
+4.javascript
+5.react+redux
+api handling
 
 Currently, two official plugins are available:
 

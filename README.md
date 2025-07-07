@@ -2,13 +2,15 @@
 
 A fully‑featured, responsive storefront built with **React 18 + Redux Toolkit**. Browse products, manage a shopping cart and wishlist, authenticate, and explore a polished UI—all powered by a clean, maintainable codebase.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 ![Built With Vite](https://img.shields.io/badge/Vite-React-blue)
 
 ---
 
+
 ## 📸 Demo
+
+![Screenshot 2025-07-07 123039](https://github.com/user-attachments/assets/25286f34-6757-4523-be4c-ed689569a912)
 
 > *Coming soon!* Add a short GIF or deploy link (e.g. **Netlify**, **Vercel**, or **GitHub Pages**) showcasing browsing and cart workflows.
 

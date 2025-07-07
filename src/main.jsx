@@ -32,7 +32,7 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  { basename: "/ecomm" }
+  { basename: "/frontend" }
 );
 
 createRoot(document.getElementById("root")).render(

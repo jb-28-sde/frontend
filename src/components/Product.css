@@ -224,6 +224,12 @@ hr {
   }
 }
 
+@media (max-width: 899px) {
+  .products-layout {
+    flex-direction: column-reverse;
+  }
+}
+
 @media (min-width: 600px) {
   .clear-btn {
     width: auto;

@@ -80,14 +80,15 @@
 }
 
 .newsletter input {
-  flex: 1 1 200px;
+  width: 100%;
   padding: 0.65rem 1rem;
   border: none;
   border-radius: 0.6rem;
   outline: none;
   font-size: 0.95rem;
-  min-width: 180px;
+  box-sizing: border-box;
 }
+
 
 .newsletter button {
   padding: 0.65rem 1.4rem;

@@ -16,24 +16,21 @@ import Footer from "./components/Footer.jsx";
 
 //
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <App />,
-      children: [
-        { index: true, element: <Home /> },
-        { path: "about", element: <About /> },
-        { path: "contact", element: <Contact /> },
-        { path: "product", element: <Product /> },
-        { path: "singleProduct/:id", element: <SingleProduct /> },
-        { path: "cart", element: <Cart /> },
-        { path: "footer", element: <Footer /> },
-      ],
-    },
-  ],
-  { basename: "/frontend" }
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "about", element: <About /> },
+      { path: "contact", element: <Contact /> },
+      { path: "product", element: <Product /> },
+      { path: "singleProduct/:id", element: <SingleProduct /> },
+      { path: "cart", element: <Cart /> },
+      { path: "footer", element: <Footer /> },
+    ],
+  },
+]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

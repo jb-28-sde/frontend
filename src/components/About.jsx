@@ -28,7 +28,7 @@ export default function About() {
             </ul>
 
             <p className="closing-line">
-              Come, experience the future of shopping with{" "}
+              Come, experience the future of shopping with
               <span>UniverseMart</span> — where quality meets trust.
             </p>
           </div>
